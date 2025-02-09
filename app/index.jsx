@@ -1,12 +1,13 @@
-import { Slot, Stack } from "expo-router";
+import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import "../global.css";
+import { Link } from "expo-router";
 
 export default function App() {
   return (
-    <Stack>
-      <Stack.Screen name="index" options={{ headerShown: false }} />
-    </Stack>
+    <View style={styles.container} className="">
+      <Text>Aora!</Text>
+      <Link href="/profile">Go to profile</Link>
+    </View>
   );
 }
 

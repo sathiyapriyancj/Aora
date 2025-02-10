@@ -1,23 +1,2 @@
------------------------------------------------------
-
-Scheme
-
-- Name of app 
-- this filed used to deep link expo react app. 
-- it is a special technique allows us to opened within a specific screen directly ulr of another app. 
-
------------------------------------------------------
-
-Snippets 
-
-1. special snippets.
-2. rnfe
-
-
------------------------------------------------------
-
-Alternative way of designing layouts is Stack
-
-
----------------------------------------------------
-
+///////////////////////////////////////////////////
+///// Dynamic Routing
